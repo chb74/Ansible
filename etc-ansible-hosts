@@ -1,0 +1,9 @@
+[WebServer:vars]
+ansible_user=ec2-user
+ansible_become=true
+ansible_become_method=sudo 
+
+[WebServer]
+10.10.0.10
+10.10.0.11
+10.10.0.12 
